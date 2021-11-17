@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>movies</title>
+</head>
+<body>
+        <p>Available Movie:</p>
+        
+     <tr th:each="movie: ${movies}">
+     
+      
+     <a th:href="@{'/AMB/movies/shows/' + ${movie}}"><img width="100" ,height="100" src="https://marapuraanichitralu.files.wordpress.com/2010/08/original_rana-in-leader_4b2b8a5750861.jpg" /></a></br>
+     
+     </tr>
+     
+     
+</body>
+</html>

@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+  <p> Available shows Are:</p>
+   
+       <tr th:each="show: ${shows}">
+    
+      
+      <a th:href="@{'/AMB/movies/shows/halls/' + ${show}}"><td th:text="${show}" /></a></br>    
+      
+</tr>
+
+
+</body>
+</html>

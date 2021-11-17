@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>halls</title>
+</head>
+<body>
+<p> Available Halls:</p>
+ <tr th:each="hall: ${halls}">
+ 
+ 
+ <td th:text="${hall}" /></br></tr>
+ 
+ <br><a href="http://localhost:8087/AMB">homepage</a></br>
+ 
+ <p> Want to Book? Login by clicking below</p>
+ 
+ <a href="http://localhost:8087/AMB/userlogin">login page</a>
+ 
+ <p> Not Registered?</p>
+ <a href="http://localhost:8087/AMB/userregistration">Register</a>
+ 
+ 
+ 
+</body>
+</html>
